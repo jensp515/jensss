@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chitea Chat - Snack Station Menu</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      background-image: url("iloveyunis.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .menu-container {
+      max-width: 960px;
+      margin: 20px auto;
+      background-color: #340808;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      text-align: center;
+    }
+
+    .menu-item {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.05);
+    }
+
+    .menu-item img {
+      max-width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .menu-item img:hover {
+      opacity: 0.8;
+    }
+
+    .menu-item h3 {
+      color: #d85050;
+      margin-top: 10px;
+    }
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #c70039;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.back-button:hover {
+    background: #a0002b;
+}
+  </style>
+</head>
+<body>
+
+    <button class="back-button" onclick="window.history.back()">Go Back</button>
+
+<div class="menu-container">
+  <h2>Chitea Chat - Snack Station Menu</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <a href="milktea.html">
+        <img src="milkteas.jpg" alt="Milk Tea">
+        <h3>Milk Teas</h3>
+      </a>
+    </div>
+    <div class="menu-item">
+      <a href="fruit.html">
+        <img src="fruits.jpg" alt="Fruit Tea">
+        <h3>Fruit Teas</h3>
+      </a>
+    </div>
+    <div class="menu-item">
+      <a href="snacks.html">
+        <img src="snacks.jpg" alt="Snacks">
+        <h3>Snacks</h3>
+      </a>
+    </div>
+    <div class="menu-item">
+      <a href="combo.html">
+        <img src="combo.jpg" alt="Combo Meals">
+        <h3>Combo Meals</h3>
+      </a>
+    </div>
+    <div class="menu-item">
+      <a href="specials.html">
+        <img src="specials.jpg" alt="Special Meals">
+        <h3>Special Meals</h3>
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
